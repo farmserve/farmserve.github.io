@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Farmserve",
-    "currentPage": "products.html",
+    "currentPage": "order.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -4164,24 +4164,23 @@
         {
           "alias": false,
           "_styles": {
-            "background-color": "@bgcolor",
-            ".show": {
-              "visibility": "visible"
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-title": {
+              "text-align": "center"
             },
-            "& when not (@preview)": {
-              "iframe": {
-                "visibility": "hidden"
-              }
-            },
-            ".hide": {
-              "visibility": "hidden"
+            ".frame": {
+              "min-height": "(@height * 100px)"
             }
           },
           "_name": "design-block",
-          "_customHTML": "<section data-bs-version=\"5.1\" group=\"HTML\" style=\"padding:{{ padding }}%;\">\n\n<mbr-parameters>\n<input type=\"text\" title=\"Iframe Width\" name=\"width\" value=\"1920\">\n<input type=\"text\" title=\"Iframe Height\" name=\"height\" value=\"1080\">\n<input type=\"text\" title=\"URL\" name=\"iframeSrc\" value=\"https://form.jotform.com/210051646737049\">\n<input type=\"checkbox\" title=\"Preview Iframe Content\" name=\"preview\" checked>\n<input type=\"range\" inline title=\"Padding %\" name=\"padding\" min=\"0\" max=\"15\" value=\"0\" step=\"1\">\n<input type=\"color\" title=\"Background Color\" name=\"bgcolor\" value=\"#242930\" selected>\n</mbr-parameters>\n\n<div style=\"position: relative; overflow: hidden; padding-top:calc( {{height}} / {{width}} * 100%);\">\n<img mbr-class=\"{'hide': isPublish}\" src=\"https://res.cloudinary.com/ezenwa/image/upload/v1590745237/test-bars_yednyc.svg\" style=\"position:absolute; top:0; left:0; width:100%; height:100%; border:0;\">\n<iframe mbr-class=\"{'show': isPublish}\" allowfullscreen=\"yes\" style=\"position:absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\" src=\"{{iframeSrc}}\"></iframe>\n</div>\n\n</section>",
-          "_cid": "hBhkvJnDLE",
-          "_anchor": "design-block-hBhkvJnDLE",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>IFRAME BLOCK</header>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"range\" inline title=\"Height\" name=\"height\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <header>Iframe Link</header>\n        <input type=\"text\" inline title=\"link\" name=\"link\" value=\"https://form.jotform.com/210051646737049\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Iframe\" name=\"showiframe\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}} frame\">\n                <div class=\"col-12\" style=\"margin-bottom: 20px;\" mbr-if=\"showMainTitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                    <b>IFRAME BLOCK</b></h3>\n                </div>\n                <iframe mbr-if=\"showiframe\" allow=\"camera; microphone; fullscreen; autoplay\" src=\"{{link}}\" style=\"height: 100%; width: 100%; border: 0px;\"></iframe>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "TRDzwbwuKE",
+          "_anchor": "design-block-TRDzwbwuKE",
           "_sourceTheme": "mobirise5",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,

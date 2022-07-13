@@ -3927,12 +3927,14 @@ a {
     left: -1rem;
   }
 }
-.cid-hBhkvJnDLE {
-  background-color: #242930;
+.cid-TRDzwbwuKE {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
 }
-.cid-hBhkvJnDLE .show {
-  visibility: visible;
+.cid-TRDzwbwuKE .mbr-section-title {
+  text-align: center;
 }
-.cid-hBhkvJnDLE .hide {
-  visibility: hidden;
+.cid-TRDzwbwuKE .frame {
+  min-height: 1000px;
 }
