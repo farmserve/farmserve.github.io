@@ -3098,98 +3098,26 @@ a {
     left: -1rem;
   }
 }
-.cid-thpCiqUPsZ {
-  padding-top: 90px;
-  padding-bottom: 90px;
+.cid-thzuXeaPbU {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-thpCiqUPsZ .showAlerts {
-  display: block !important;
+.cid-thzuXeaPbU .mbr-overlay {
+  background-color: #ffffff;
+  opacity: 0.4;
 }
-.cid-thpCiqUPsZ .rowflexrev {
-  display: -webkit-flex;
-}
-.cid-thpCiqUPsZ .title {
-  margin-bottom: 2rem;
-}
-.cid-thpCiqUPsZ .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-thpCiqUPsZ textarea.form-control {
-  min-height: 188px;
-}
-.cid-thpCiqUPsZ LABEL {
-  color: #232323;
-  display: initial;
-}
-.cid-thpCiqUPsZ .mbr-section-terms {
+.cid-thzuXeaPbU form .mbr-section-btn {
   text-align: center;
-  color: #232323;
-  margin-bottom: 0px;
+  width: 100%;
 }
-.cid-thpCiqUPsZ .mbr-section-labels {
-  color: #232323;
-  padding: 0;
-  margin-bottom: .357em;
-  text-align: left;
-}
-.cid-thpCiqUPsZ .mbr-section-autorespond {
-  text-align: left;
-  color: #232323;
-  margin-bottom: 0px;
-}
-.cid-thpCiqUPsZ .mbr-section-gdpr {
-  text-align: left;
-  color: #232323;
-  margin-bottom: 0px;
-}
-.cid-thpCiqUPsZ .alert {
-  margin-bottom: 0;
-}
-.cid-thpCiqUPsZ .alert-success {
-  background-color: #70c770;
-}
-.cid-thpCiqUPsZ .alert-danger {
-  background-color: #ff4a52;
-}
-.cid-thpCiqUPsZ .btn {
+.cid-thzuXeaPbU form .mbr-section-btn .btn {
   display: inline-flex;
 }
-.cid-thpCiqUPsZ .mbr-alert-success {
-  text-align: left;
-  color: #ffffff;
-}
-.cid-thpCiqUPsZ .mbr-alert-danger {
-  text-align: left;
-  color: #ffffff;
-}
-.cid-thpCiqUPsZ .uploadBtn {
-  padding-top: 13px !important;
-  padding-left: 12.5px !important;
-}
-.cid-thpCiqUPsZ input[type=file]::file-selector-button {
-  border: 1px solid #232323 !important;
-  padding: .2em .4em;
-  border-radius: .2em;
-  background-color: #cccccc !important;
-  color: #232323 !important;
-  transition: 0.3s;
-}
-.cid-thpCiqUPsZ input[type=file]::-webkit-file-upload-button {
-  border: 1px solid #232323 !important;
-  padding: .2em .4em;
-  border-radius: .2em;
-  background-color: #cccccc !important;
-  color: #232323 !important;
-  transition: 0.3s;
-}
-.cid-thpCiqUPsZ input[type=file]::-ms-browse {
-  border: 1px solid #232323 !important;
-  padding: .2em .4em;
-  border-radius: .2em;
-  background-color: #cccccc !important;
-  color: #232323 !important;
-  transition: 0.3s;
+@media (max-width: 991px) {
+  .cid-thzuXeaPbU form .mbr-section-btn .btn {
+    width: 100%;
+  }
 }
 .cid-t6buJst7rv {
   padding-top: 45px;
