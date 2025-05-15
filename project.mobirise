@@ -58,7 +58,7 @@
     "robotsSwitcher": true,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "favicon": false,
-    "mbrsiteDomain": "rsiebbkr8p",
+    "mbrsiteDomain": "jpnioayws7",
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
@@ -99,7 +99,8 @@
     "usedWebp": true,
     "witsec-search": false,
     "witsec-search-excluded-sections": "",
-    "witsec-search-excluded-pages": "404.html"
+    "witsec-search-excluded-pages": "404.html",
+    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-Y0RHHNNBR6\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-Y0RHHNNBR6');\n</script>"
   },
   "pages": {
     "index.html": {
